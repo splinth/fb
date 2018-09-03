@@ -1,0 +1,339 @@
+/*
+	Theme Name: Rehub Pink
+	Theme URI: http://rehub.wpsoul.net/
+	Description: A Hybrid magazine/shop/review/news Wordpress Theme
+	Author: Sizam
+	Author URI: http://sizam-design.com/
+	Version: 4.6.2
+	Template: rehub
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+a {
+ cursor:pointer !important;   
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1280px)
+{
+    .page-template-template-toptable .full-width-custom {
+        width: 1100px !important;
+    }
+    
+    .page-template-template-toptable .rh-container, .content {
+        width: 1100px !important;
+    }
+}
+
+@media (min-width: 1024px) {
+.page-template-template-toptable .top_table_block .top_rating_heading th {
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.page-template-template-toptable .top_table_block .top_rating_heading {
+    text-align: center;
+    font-size: 12px;
+    background: #E5EAED;
+    color: #6E8894;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/*
+    .top_table_block .top_rating_item .rating_col {
+        margin-top: -150px;
+    }
+*/
+
+.page-template-template-toptable .price_section_orig {
+    margin-top: -15px;
+}
+
+.page-template-template-toptable .price_section {
+    margin-top: 13px;
+}
+
+.page-template-template-toptable .title h1 {
+    margin: 0 !important;
+    padding-bottom: 20px;
+}
+
+.page-template-template-toptable .re-line-badge.re-line-table-badge {
+    box-shadow: 0 0 0 0 !important;
+}
+
+.page-template-template-toptable .re-line-badge {
+    padding: 5px 10px !important;
+    text-transform: uppercase !important;
+    font: bold 14px/15px Roboto, Arial !important;
+}
+
+.page-template-template-toptable .no_people_used_message {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.7em;
+}
+
+.page-template-template-toptable .top_table_block .rehub_offer_coupon:not(.coupon_btn) {
+    display: table-row;
+}
+
+.page-template-template-toptable .rehub_offer_coupon.masked_coupon:not(.btn_offer_block) {
+    font-weight: normal;
+    text-transform: none;
+}
+
+.page-template-template-toptable .rehub_offer_coupon {
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 26px;
+}
+
+.page-template-template-toptable .rehub_offer_coupon.masked_coupon:not(.btn_offer_block) {
+    font-size: 100%;
+}
+
+.page-template-template-toptable .rehub_offer_coupon span {
+    width: auto;
+}
+
+
+.page-template-template-toptable .top_rating_item .rank_count {
+    width: 30px;
+    height: 30px;
+}
+
+.page-template-template-toptable .top_table_block .top_rating_item td {
+    vertical-align: top;
+}
+
+.page-template-template-toptable .top_rating_item .product_image_col, .top_rating_block.list_style_rating .top_rating_item>div.product_image_col, .table_view_block .product_image_col, .top_table_block .top_rating_item td.product_image_col {
+    vertical-align: middle !important;
+}
+
+}
+
+@media (max-width: 1023px) {
+    
+    .page-template-template-toptable .shortcode-star-rating
+    {
+        display: none;
+    }
+    
+    .page-template-template-toptable .table_view_block .rehub_offer_coupon:not(.coupon_btn), .top_rating_block .rehub_offer_coupon:not(.coupon_btn), .aff_prices .rehub_offer_coupon:not(.coupon_btn), .top_table_block .rehub_offer_coupon:not(.coupon_btn), .table_view_charts .rehub_offer_coupon:not(.coupon_btn) {
+        width: auto;
+    }
+    
+    .page-template-template-toptable .rehub_offer_coupon {
+      padding: 0;
+      border: 0 !important;
+    }
+
+    .page-template-template-toptable .rehub_offer_coupon:hover {
+        border: 0px !important;
+    }
+    
+    .page-template-template-toptable .re-line-badge.re-line-table-badge {
+        display: none;
+    }
+    
+    .page-template-template-toptable .billed {
+        padding-top: 15px;
+        line-height: 20px;
+    }
+
+    .page-template-template-toptable .price_section_cur {
+        line-height: 40px;
+    }
+    
+    .page-template-template-toptable .post_offer_anons {
+        width: 100%;
+    }
+    
+    .page-template-template-toptable .top_rating_item .buttons_col, .top_rating_block.list_style_rating .top_rating_item>div.buttons_col, .table_view_block .buttons_col, .top_table_block .top_rating_item td.buttons_col {
+        color: #333333 !important;
+        padding: 18px 14px;
+    }
+    
+    .page-template-template-toptable .title h1 {
+        margin: 0 0 15px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page-template-template-toptable .top_rating_item .score {
+        width: 75px !important;
+    }
+}
+
+@media (max-width: 1140px) and (min-width: 1024px){
+
+    .page-template-template-toptable .top_rating_item .buttons_col, .top_rating_block.list_style_rating .top_rating_item>div.buttons_col, .table_view_block .buttons_col {
+        min-width: auto;
+    }
+}
+.page-template-template-toptable .top_rating_item .score.square_score {
+    background: #a93971;
+}
+
+.page-template-template-toptable .top_rating_item .rating_col a.read_full {
+    display: none;
+}
+
+.page-template-template-toptable .billed {
+    font-size: .875rem;
+    height: 19px;
+    line-height: 19px;
+    color: #474a60;
+    font-weight: 600;
+
+}
+
+.page-template-template-toptable .price_section_orig {
+    font-size: 20px;
+    color: #919da5;
+    text-decoration: line-through;
+}
+
+.page-template-template-toptable .price_section_cur {
+    font-size: 30px;
+    font-weight: 700;
+    color: #27384e;
+}
+
+.page-template-template-toptable .re-line-badge {
+    background: #77B21D !important;
+}
+
+.page-template-template-toptable .re-starburst.badge_2, .re-starburst.badge_2 span, .re-line-badge.badge_2, .re-ribbon-badge.badge_2 span {
+    background: #FFBC00 !important;
+}
+
+.page-template-template-toptable .re-starburst.badge_3, .re-starburst.badge_3 span, .re-line-badge.badge_3, .re-ribbon-badge.badge_3 span {
+    background: #F39200 !important;
+}
+
+.page-template-template-toptable .re-starburst.badge_4, .re-starburst.badge_4 span, .re-line-badge.badge_4, .re-ribbon-badge.badge_4 span {
+    background: #D50000 !important;
+}
+
+.page-template-template-toptable .our-rating-custom {
+    background: #19b4e4 !important;
+}
+
+.page-template-template-toptable #rank_1.top_rating_item .rank_count {
+    background-color: #111 !important;
+}
+
+.page-template-template-toptable .title h1 {
+    color: #111;
+}
+
+/*
+.prod_website {
+    display: block;
+    color: #19b4e4;
+    font-size: .875rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+*/
+.page-template-template-toptable .re-line-badge.re-line-small-label {
+    margin: 0 !important;
+}
+
+.page-template-template-toptable .wpsm-button.gold {
+    background: #f6ae18;
+    border: 1px solid #f6ae18;
+    color: #fff !important;
+}
+
+.page-template-template-toptable .wpsm-button.medium {
+    line-height: 20px !important;
+    font-size: 18px !important;
+    display: block !important;
+    letter-spacing: 1px !important;
+    font-weight: 600 !important;
+    padding: 13px 20px !important;
+}
+
+.page-template-template-toptable .no_people_used_message {
+    color: #19b4e4;
+}
+
+.page-template-template-toptable .rehub_offer_coupon i.fa {
+    display: none !important;
+}
+
+.page-template-template-toptable .top_table_block .top_rating_item {
+    cursor: pointer;
+}
+
+.wpsm-button.green {
+    background: #35B729 !important;
+    border: 0;
+    border-bottom: 5px solid #43c801 !important;
+}
+
+nav.top_menu > ul:not(.off-canvas) > li > a:hover, nav.top_menu > ul:not(.off-canvas) > li.current-menu-item a, .search-header-contents {
+    border-top-color: transparent !important;
+}
+
+.wpsm-button.pink {
+    border: 0px !important;
+    border-bottom: 5px solid #d24f7b !important;
+}
+
+.radial-progress .circle .mask .fill {
+    background-color: #e3618d;
+}
+
+.top_rating_item .buttons_col, .top_rating_block.list_style_rating .top_rating_item>div.buttons_col, .table_view_block .buttons_col, .top_table_block .top_rating_item td.buttons_col {
+    font-size: 14px;
+    color: #a93971 !important;
+    vertical-align: middle !important;
+}
+
+.title h4 {
+    color: #a93971 !important;
+}
+
+.title h1 {
+    color: #a93971 !important;
+}
+
+.brg_product-card__rank {
+	border-bottom: 1px solid #e6e6e6;
+    color: #b3b3b3 !important;
+    display: inline-block;
+    font-size: 35px !important;
+	line-height: 42px !important;
+}
+
+.brg_product-card__title {
+    font-size: 21px !important;
+	line-height: 26px !important;
+	text-align: left;
+    overflow: hidden;
+    color: #666 !important;
+    word-break: break-word;
+}
+
+@media (min-width: 1024px) {
+	.page-template-template-toptable .top_table_block .top_rating_item td {
+		vertical-align: middle;
+	}
+}
+
+.rh-top-table .top_rating_item figure > a, .rh-top-table .top_rating_item figure {
+    height: 126px !important;
+    width: 126px !important;
+}
+
+.priced_block {
+    margin-bottom: 0px;
+}
